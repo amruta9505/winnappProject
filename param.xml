@@ -1,0 +1,13 @@
+
+<suite name="Suite">
+	<parameters>
+		<parameter name="username" value="john" />
+		<parameter name="password" value="hp"/>
+	</parameters>
+	<test name="Test">
+		<classes>
+			<class name="com.testng.basic.NewTest" />
+			<class name="com.testng.basic.Test4FlightLogin" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
